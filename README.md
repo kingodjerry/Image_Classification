@@ -1,8 +1,8 @@
-## Keras와 OpenCV를 이용한 이미지 분류
+# Keras와 OpenCV를 이용한 이미지 분류
 
 ※ 프로그램 실행 파일은 'image_classification.py' 입니다.
 
-# Tensorflow란?
+## Tensorflow란?
 
 ![tensorflow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
