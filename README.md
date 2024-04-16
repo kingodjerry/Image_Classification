@@ -1,5 +1,5 @@
 # Keras와 OpenCV를 이용한 이미지 분류
-구글 Teachable Machine의 사전 학습된 AI 모델을 사용하여 제작한 '이미지 라벨 예측 프로그램'입니다. 
+구글 Teachable Machine의 사전 학습된 AI 모델을 사용하여 제작한 '이미지 라벨 예측 프로그램'입니다. <br>
 정의한 클래스는 'Car', 'Person', 'Dog', 'Plant'로 4개입니다. 
 
 ※ 프로그램 실행 파일은 'image_classification.py' 입니다.
