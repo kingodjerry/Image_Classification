@@ -1,8 +1,13 @@
 # Keras와 OpenCV를 이용한 이미지 분류
 구글 Teachable Machine의 사전 학습된 AI 모델을 사용하여 제작한 '이미지 분류 프로그램'입니다. <br>
-정의한 클래스는 'Car', 'Person', 'Dog', 'Plant'로 4개입니다. 
+정의한 클래스는 'Car', 'Person', 'Dog', 'Plant'로 4개입니다. <br>
+※ Update! 사진 촬영 시 '타이머 기능'과 'ESC 종료 기능'을 추가하였습니다.
 
-※ Update! 사진 촬영 시 '타이머 기능'과 'ESC 종료 기능'을 추가하였습니다. <br>
+### Model Accuracy
+![image](https://github.com/kingodjerry/Image_Classification/assets/143167244/c54572d9-0e98-432f-bc98-c33b4275f9f7)
+### loss value
+![image](https://github.com/kingodjerry/Image_Classification/assets/143167244/136732d1-99e5-4318-b035-5661cc2c2e2c)
+
 
 ## 프로그램 실행
 ※ 프로그램 실행 파일은 'image_classification.py' 입니다. <br>
