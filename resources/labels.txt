@@ -1,0 +1,4 @@
+0 Car
+1 Person
+2 Dog
+3 Plant
