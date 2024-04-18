@@ -9,11 +9,9 @@
 1. 가상환경 생성
 2. 환경설정 - 밑의 코드를 terminal에 입력
    
-'''
-pip install -r ./resources/requirements.txt
-'''
+   pip install -r ./resources/requirements.txt
 
-3. 'image_classification.py' 실행 (디버깅)
+4. 'image_classification.py' 실행 (디버깅)
 
 ## Tensorflow란? (Keras 사용을 위해 tensorflow 설치가 요구되니다.)
 
