@@ -13,7 +13,8 @@
    pip install -r ./resources/requirements.txt
    ```
    
-4. 'image_classification.py' 실행 (디버깅)
+3. 'image_classification.py' 실행
+4. ESC 누르면 종료 
 
 ## Tensorflow란? (Keras 사용을 위해 tensorflow 설치가 요구되니다.)
 
