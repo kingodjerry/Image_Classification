@@ -26,6 +26,7 @@ class ImageProcessor(QMainWindow):
         self.model = load_model("./resources/keras_model.h5", compile=False)
         self.class_names = open("./resources/labels.txt", "r").readlines()
 
+    # 파일에서 이미지 불러오기
     def load_image(self):
         filename, _ = QFileDialog.getOpenFileName(self, "이미지 파일 열기", "", "이미지 파일 (*.png *.jpg *.jpeg *.bmp)")
         if filename:
@@ -33,7 +34,8 @@ class ImageProcessor(QMainWindow):
             pixmap = QPixmap(filename)
             self.image.setPixmap(pixmap)
             self.predict_image()
-
+            
+    # 새로운 사진 활영하기 + 저장하기
     def capture_image(self):
         pixmap = QPixmap("./resources/three.jpg")
         self.image.setPixmap(pixmap)
@@ -54,15 +56,16 @@ class ImageProcessor(QMainWindow):
             self.predict_image()
         cap.release()
 
+    # 결과 출력
     def out_image(self):
         if self.selected_image:
             QMessageBox.information(self, "결과", f"클래스: {self.class_name[2:]}정확도: {self.confidence_score}%")
 
         else:
             QMessageBox.warning(self, "이미지 없음", "선택된 이미지가 없습니다.")
-
+            
+    # 이미지 전처리 및 예측  
     def predict_image(self):
-        # 이미지 전처리 및 예측
         image = Image.open(self.selected_image).convert("RGB")
         size = (224, 224)
         image = ImageOps.fit(image, size, Image.Resampling.LANCZOS)
@@ -76,6 +79,7 @@ class ImageProcessor(QMainWindow):
         confidence_score_1 = prediction[0][index]
         self.confidence_score = str(np.round(confidence_score_1 * 100))[:-2]
 
+    # ESC 누르면 프로그램 종료
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_Escape:
             self.close()
