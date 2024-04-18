@@ -2,10 +2,18 @@
 구글 Teachable Machine의 사전 학습된 AI 모델을 사용하여 제작한 '이미지 분류 프로그램'입니다. <br>
 정의한 클래스는 'Car', 'Person', 'Dog', 'Plant'로 4개입니다. 
 
-※ 프로그램 실행 파일은 'image_classification.py' 입니다. <br>
-※ Update! 사진 촬영 시 '타이머 기능'과 'ESC 종료 기능'을 추가하였습니다.
+※ Update! 사진 촬영 시 '타이머 기능'과 'ESC 종료 기능'을 추가하였습니다. <br>
 
-## Tensorflow란?
+## 프로그램 실행
+※ 프로그램 실행 파일은 'image_classification.py' 입니다. <br>
+1. 가상환경 생성
+2. 환경설정 - 밑의 코드를 terminal에 입력
+'''
+pip install -r ./resources/requirements.txt
+'''
+3. 'image_classification.py' 실행 (디버깅)
+
+## Tensorflow란? (Keras 사용을 위해 tensorflow 설치가 요구되니다.)
 
 ![tensorflow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
