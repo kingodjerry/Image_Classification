@@ -22,7 +22,7 @@
 3. 'image_classification.py' 실행
 4. ESC 누르면 종료 
 
-## Tensorflow란? (Keras 사용을 위해 tensorflow 설치가 요구되니다.)
+## Tensorflow란? (Keras 사용을 위해 tensorflow 설치가 요구됩니다.)
 
 ![tensorflow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
